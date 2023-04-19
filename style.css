@@ -16,13 +16,14 @@ img[src$=".jpg"] {
 body {
     background: url(./imgs/bg.webp) repeat-y;
     background-size: cover;
-    height: 100vh;
+    height: 95vh;
     overflow: hidden;
 }
 
 .content {
     padding: 1rem;
     margin: 0 auto;
+    margin-top: 2.5vh;
     display: flex;
     max-width: 900px;
     flex-direction: column;
